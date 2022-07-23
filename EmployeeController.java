@@ -1,3 +1,6 @@
+//Day ONE TESTING
+
+
 package com.app.controller;
 
 import java.io.IOException;
@@ -46,8 +49,22 @@ public class EmployeeController {
 	@Autowired
 	private ImageHandlingService imageHandlingService;
 
+  
+
+
+
+
+
+
 	public EmployeeController() {
 		System.out.println("in ctor of " + getClass());
+		System.out.println(" +++++++++++++++++++++++DAY ONE TESTING +++++++++++++++++++++++++++++++ ");
+
+
+
+
+
+
 	}
 
 	// add req handling method (REST API call) to send all emps
